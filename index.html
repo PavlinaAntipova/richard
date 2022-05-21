@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+                    <a class="logo" href="./index.html"><img src="/images/logo.png" alt="logo" srcset="/images/logo.png 1x, /images/logo@2x.png 2x, /images/logo@3x.png 3x"></a>
+
+            <nav>
+                <ul class="navigation">
+                    <li class="navigation__item"><a href="#about">About</a></li>
+                    <li class="navigation__item"><a href="#advantages">Features</a></li>
+                    <li class="navigation__item"><a href="#features">How to Use</a></li>
+                    <li class="navigation__item"><a href="#download">Download</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+              <div class="hero__wrapper">
+                    <div>
+                        <h1 class="hero__title">Momentum</h1>
+                        <p class="hero__text">Launch your product — and savor the momentum.</p>
+                        <button class="button">Get the App</button>
+                    </div>
+            
+                        <img class="hero__img" srcset="/images/hero.png 300w, /images/hero@2x.png 600w, /images/hero@3x.png 1200w"
+                            sizes="(min-width: 1200px) 400px, (min-width: 768px) 180px, 50vw" src="./images/hero.png"
+                            alt="app's screen" />
+            <button class="js-btn-arrow"><svg class="hero__icon" width="9" height="40">
+                <use href="./images/icons.svg#icon-arrow"></use>
+            </svg></button>
+                    </div>
+            </div>
+        </section>
+        <section id="about" class="overview">
+            <div class="container">
+                <h2 class="visually-hidden">Product's overview</h2>
+                <p class="subtitle">Aenean Consectetur Porta</p>
+                <p class="title title--light overview__text">Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+            </div>
+            <img class="overview__img"
+                srcset="/images/overview.png 1200w, /images/overview@2x.png 2400w, /images/overview@3x.png 3600w"
+                sizes="(min-width: 1200px) 1200px, (min-width: 768px) 100vw, 100vw" src="./images/overview.png"
+                alt="Product's overview" />
+        </section>
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="visually-hidden">Features</h2>
+                <ul class="features__list">
+                    <li class="features__item">
+                        <div class="features__description">
+                            <p class="subtitle">Aenean Consectetur</p>
+                            <h3 class="features__title title">Cay sociis nato que penatibus et</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                        </div>
+                        <img srcset="/images/features-1.png 558w, /images/features-1@2x.png 1116w, /images/features-1@3x.png 1674w"
+                            sizes="(min-width: 1200px) 341px, (min-width: 768px) 300px, 0vw" src="./images/features-1.png" alt="app`s screen" />
+                    </li>
+                    <li class="features__item">
+                        <div class="features__description">
+                            <p class="subtitle">ConsectUltricies</p>
+                            <h3 class="features__title title">Amet Ipsum</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                        </div>
+                        
+                        <img srcset="/images/features-2.png 558w, /images/features-2@2x.png 1116w, /images/features-2@3x.png 1674w"
+                            sizes="(min-width: 1200px) 341px, (min-width: 768px) 300px, 0vw" src="./images/features-1.png" alt="app`s screen" />
+                    </li>
+                    <li class="features__item">
+                        <div class="features__description">
+                            <p class="subtitle">Aenean Consectetur Porta</p>
+                            <h3 class="features__title title">Magna Porta Sit Bibendum</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                        </div>
+                        
+                        <img srcset="/images/features-3.png 558w, /images/features-3@2x.png 1116w, /images/features-3@3x.png 1674w"
+                            sizes="(min-width: 1200px) 341px, (min-width: 768px) 300px, 0vw" src="./images/features-3.png" alt="app`s screen" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="advantages" class="advantages">
+            <h2 class="visually-hidden">Advantages</h2>
+            <div class="container">
+                
+                    <ul class="advantages__list advantages__list--first">
+                        <li>
+                            <svg class="advantages__icon" width="80" height="35">
+                                <use href="./images/icons.svg#icon-burger"></use>
+                            </svg>
+                            <h3 class="advantages__title">Activity Notifications</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </li>
+                        <li>
+                            <svg class="advantages__icon" width="80" height="35">
+                                <use href="./images/icons.svg#icon-spoon"></use>
+                            </svg>
+                            <h3 class="advantages__title">Custom Timing</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </li>
+                        <li>
+                            <svg class="advantages__icon" width="80" height="35">
+                                <use href="./images/icons.svg#icon-chart"></use>
+                            </svg>
+                            <h3 class="advantages__title">Mobile Optimized</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </li>
+
+                    </ul>
+                
+                    <ul class="advantages__list advantages__list--second">
+                        <li><span class="advantages__number">+12k</span>
+                            <p class="advantages__description">Nibh Elit Tristique</p></li>
+                        <li><span class="advantages__number">84</span>
+                            <p class="advantages__description">Aenean Condimentum</p>
+                        </li>
+                        <li><span class="advantages__number">3,07</span>
+                            <p class="advantages__description">Quam Inceptos</p>
+                        </li>
+                        <li><span class="advantages__number">24h</span>
+                            <p class="advantages__description">Ullamcorper</p>
+                        </li>
+
+                    </ul> 
+                
+            </div>
+        </section>
+        <section class="articles">
+            <h2 class="visually-hidden">Articles</h2>
+            <div class="container">
+                <ul>
+                    <li class="articles__item">
+                        <div class="articles__wrapper">
+                            <p class="subtitle">Aenean Consectetur Porta</p>
+                            <h3 class="title articles__title">Sem Risus Elit Vestibulum</h3>
+                            <p class="text">Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor
+                                ligula, eget lacinia
+                                odio sem nec elit. <b>Cras mattis</b> consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at
+                                eget metus.
+                                Etiam porta sem malesuada magna mollis euismod.</p>
+                        </div>
+                        <img srcset="/images/article-1.png 558w,/images/article-1@2x.png 1116w, /images/article-1@3x.png 1674w"
+                            sizes="(min-width: 1200px) 519px, (min-width: 768px) 300px, 0vw" src="./images/article-1.png"  alt="burger" />
+                     
+                    </li>
+                    <li class="articles__item">
+                        <div class="articles__wrapper">
+                            <p class="subtitle">Aenean Consectetur Porta</p>
+                            <h3 class="title articles__title">Parturient Tortor</h3>
+                            <p class="text">Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor
+                                ligula, eget
+                                lacinia
+                                odio sem nec elit. <b>Cras mattis</b> consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at
+                                eget metus.
+                                Etiam porta sem malesuada magna mollis euismod.</p>
+                        </div>
+                        
+                        <img srcset="/images/article-2.png 558w,/images/article-2@2x.png 1116w, /images/article-2@3x.png 1674w"
+                            sizes="(min-width: 1200px) 519px, (min-width: 768px) 280px, 0vw" src="./images/article-2.png" alt="salat" />
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+        <section class="feedback">
+            <h2 class="visually-hidden">Feedback</h2>
+            <div class="container feedback__container">
+            <svg class="feedback__icon" width="58" height="54">
+                <use href="./images/icons.svg#icon-quot"></use>
+            </svg>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><p class="feedback__text">HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat
+                        porttitor ligula, eget
+                        lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem
+                        malesuada magna mollis euismod.ing</p>
+                    <span class="feedback__name">Joshua Home</span>
+                    <span class="feedback__company">New York Times</span></div>
+                    <div class="swiper-slide"><p class="feedback__text">HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat
+                        porttitor ligula, eget
+                        lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem
+                        malesuada magna mollis euismod.ing</p>
+                    <span class="feedback__name">Joshua Home</span>
+                    <span class="feedback__company">New York Times</span></div>
+                    <div class="swiper-slide"><p class="feedback__text">HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat
+                        porttitor ligula, eget
+                        lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem
+                        malesuada magna mollis euismod.ing</p>
+                    <span class="feedback__name">Joshua Home</span>
+                    <span class="feedback__company">New York Times</span></div>
+                    <div class="swiper-slide">
+                        <p class="feedback__text">HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi
+                            erat
+                            porttitor ligula, eget
+                            lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta
+                            sem
+                            malesuada magna mollis euismod.ing</p>
+                        <span class="feedback__name">Joshua Home</span>
+                        <span class="feedback__company">New York Times</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="feedback__text">HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi
+                            erat
+                            porttitor ligula, eget
+                            lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta
+                            sem
+                            malesuada magna mollis euismod.ing</p>
+                        <span class="feedback__name">Joshua Home</span>
+                        <span class="feedback__company">New York Times</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="feedback__text">HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi
+                            erat
+                            porttitor ligula, eget
+                            lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta
+                            sem
+                            malesuada magna mollis euismod.ing</p>
+                        <span class="feedback__name">Joshua Home</span>
+                        <span class="feedback__company">New York Times</span>
+                        </div>
+                </div>
+ 
+            </div>
+            
+            </div>
+        </section>
+        <section class="companies">
+        <h2 class="visually-hidden">Companies</h2>
+            <div class="container companies__container">
+                <img class="companies__img"
+                    srcset="/images/companies.png 1008w, /images/companies@2x.png 2016w, /images/companies@3x.png 3024w"
+                    sizes="(min-width: 1200px) 1000px, (min-width: 768px) 700px, 100wv" src="./images/companies.png" alt="companies" />
+        
+            </div>
+
+        </section>
+        <div class="images"></div>
+        <section id="download" class="download">
+            <div class="container download__container">
+            <h2 class="visually-hidden">Download here</h2>
+            <p class="title title--light download__title">Ready to get started?</p>
+            <button class="download__button button">Download Now</button>
+            <button class="button button--transparent">Get in Touch</button>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="container subscribe__container">
+            <h2 class="title title--light subscribe__title">Get updates from Richard</h2>
+            <p class="subscribe__text text">New course alerts, discounts and free lessons</p>
+            <form class="subscribe__form">
+                <input class="subscribe__input" type="text" placeholder="Enter your email">
+                <button class="subscribe__button button" type="submit">Subscribe</button>
+            </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <a class="footer__logo" href=""><img src="./images/logo-footer.png"
+                    srcset="/images/logo-footer.png 1x, /images/logo-footer@2x.png 2x, /images/logo-footer@3x.png 3x" width="136"
+                    height="104" alt="logo"></a>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="">Email</a></li>
+                <li class="footer__item"><a href="">Instagram</a></li>
+                <li class="footer__item"><a href="">Facebook</a></li>
+                <li class="footer__item"><a href="">Twitter</a></li>
+                <li class="footer__item"><a href="">Image License Info</a></li>
+                <li class="footer__item"><a href="">Powered by Webflow</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+
+</body>
+</html>

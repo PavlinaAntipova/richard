@@ -1,0 +1,16 @@
+.images {
+  display: none;
+  //   Desktop
+  @media screen and (min-width: 1200px) {
+    display: block;
+    height: 518px;
+    background-color: $accent-color;
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/bg@2x.png');
+    }
+  }
+}

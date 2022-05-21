@@ -1,0 +1,49 @@
+.subscribe {
+  @include section-padding(80px);
+  padding-bottom: 80px;
+  background-color: #1b1b1b;
+
+  //   Tablet
+  @media screen and (min-width: 768px) {
+    @include section-padding(130px);
+    padding-bottom: 150px;
+  }
+}
+
+.subscribe__container {
+  text-align: center;
+}
+
+.subscribe__title {
+  margin-bottom: 20px;
+}
+
+.subscribe__text {
+  margin-bottom: 40px;
+}
+
+.subscribe__form {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe__input {
+  display: block;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 15px;
+  width: 311px;
+  border: none;
+  border-radius: 3px 0px 0px 3px;
+  box-shadow: 0px 0px 0px $accent-color;
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.63em;
+    color: #1c1c1c;
+  }
+}
+
+.subscribe__button {
+  display: block;
+}

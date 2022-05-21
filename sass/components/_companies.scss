@@ -1,0 +1,19 @@
+.companies {
+  //   Mobile
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  //   Tablet
+  @media screen and (min-width: 768px) {
+    @include section-padding(80px);
+    padding-bottom: 80px;
+  }
+}
+
+.companies__container {
+  //   Tablet
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+}

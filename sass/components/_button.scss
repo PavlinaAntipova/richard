@@ -1,0 +1,22 @@
+.button {
+  padding: 10px 20px;
+  line-height: 1.63em;
+  color: $lighten-text-color;
+  border-radius: 3px;
+  background-color: $accent-color;
+
+  //   Tablet
+  @media screen and (min-width: 768px) {
+    padding: 20px 40px;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.button--transparent {
+  border: 1px solid #b04bb3;
+  background-color: transparent;
+}
