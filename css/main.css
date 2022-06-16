@@ -131,7 +131,8 @@ header {
 
 @media screen and (max-width: 767px) {
   .logo {
-    display: block;
+    margin: 0 auto;
+    display: inline-block;
     margin-bottom: 20px;
   }
 }
@@ -149,12 +150,15 @@ header {
   font-size: 12px;
 }
 
+.navigation__item:last-child {
+  margin-right: 0;
+}
+
 @media screen and (min-width: 768px) {
   .navigation__item:first-child {
     font-size: 15px;
   }
   .navigation__item:last-child {
-    margin-right: 0;
     font-size: 15px;
   }
 }
@@ -713,13 +717,6 @@ header {
 
 .footer {
   background-color: #1b1b1b;
-  padding-bottom: 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .footer {
-    padding-bottom: 70px;
-  }
 }
 
 .footer__container {
@@ -760,5 +757,54 @@ header {
 .footer__item a:hover,
 .footer__item a:focus {
   text-decoration: underline;
+}
+
+.footer__developing {
+  margin-top: 60px;
+  padding: 15px 0;
+  background-color: #f7f7f73f;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__developing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.footer__copy {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__copy {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+}
+
+.footer__text {
+  color: #fff;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__text {
+    font-size: 16px;
+  }
+}
+
+.footer__text a {
+  font-weight: 700;
+  color: inherit;
 }
 /*# sourceMappingURL=main.css.map */

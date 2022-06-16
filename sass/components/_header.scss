@@ -19,7 +19,8 @@
 .logo {
   //   Mobile
   @media screen and (max-width: 767px) {
-    display: block;
+    margin: 0 auto;
+    display: inline-block;
     margin-bottom: 20px;
   }
 }
@@ -34,6 +35,10 @@
   line-height: 1.3em;
   font-size: 12px;
 
+    &:last-child {
+        margin-right: 0;
+      }
+
   //   Tablet
   @media screen and (min-width: 768px) {
     &:first-child {
@@ -41,7 +46,6 @@
     }
 
     &:last-child {
-      margin-right: 0;
       font-size: 15px;
     }
   }
